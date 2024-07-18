@@ -1,0 +1,308 @@
+.logo img{
+    width: 10rem;
+    padding: 20px;
+}
+.navbar{
+    background-color: #010101;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+.main {
+  opacity: 0.9;
+  background-image: url('https://res.cloudinary.com/dpe4zyaxf/image/upload/v1721242955/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-414w-2x_ihdpbd.jpg');
+filter: grayscale(25%);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  }
+  .input-group input{
+  margin: 0 20px;
+  width: 50%;
+margin-top: 20px;
+}
+.input-group button{
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  }
+.input-group button:hover{
+  background-color: #f40612;
+  }
+  .input-group-append a{
+    text-decoration: none;
+    color: #fff;
+  }
+.main-content {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #f5f2f2;
+  text-align: center;
+  padding: 0 05rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  text-shadow: 0 0 0.5rem rgba(0, 0,
+  0, 0.5);
+  }
+  .main-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    }
+    .main-content h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      }
+      .main-content p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+        }
+  .main-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+  }
+.menu {
+    padding: 10px;
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.menu button a{
+    text-decoration: none;
+    color: #fbf8f8;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+}
+.menu p{
+    text-decoration: none;
+    text-align: center;
+}
+.menu  button{
+  background-color: #c60b0b;
+  border: none;
+  border-radius: 5px;
+ width: 100px;
+ height: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #cd1e1e;
+  }
+
+ 
+  .trans {
+
+  padding-right: 10px;
+  }
+
+
+  .sub-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+  }
+
+  .sub-content h2{
+    color: #fbf8f8;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    }
+    .sub-content p{
+      color: #fbf8f8;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 10px;
+      text-align: center;
+      }
+      .content-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+       padding-top: 10rem; 
+      }
+      .content-1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+      }
+      .content-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 10rem; 
+      }
+.content-3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10rem; 
+}
+
+.content-4{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+/* Add mobile responsive styles */
+
+/* For screens with a maximum width of 768px (e.g., tablets and mobile devices) */
+@media only screen and (max-width: 768px) {
+  /* Adjust layout and styling for mobile devices */
+  .main {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .input-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-group input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .input-group button {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .main-content {
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+  .main-content h1 {
+    font-size: 2rem;
+  }
+  .main-content h3 {
+    font-size: 1.5rem;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu button {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .sub-content {
+    padding: 20px;
+  }
+  .sub-content h2 {
+    font-size: 1.8rem;
+  }
+  .sub-content p {
+    font-size: 1.2rem;
+  }
+  .content-1, .content-2, .content-3, .content-4 {
+    padding: 20px;
+  }
+  .content-2, .content-3, .content-4 img {
+
+    width: 300px;
+  }
+}
+
+/* For screens with a maximum width of 480px (e.g., smaller mobile devices) */
+@media only screen and (max-width: 480px) {
+  /* Adjust layout and styling for smaller mobile devices */
+  .main {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .input-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-group input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .input-group button {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .main-content {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  .main-content h1 {
+    font-size: 1.5rem;
+  }
+  .main-content h3 {
+    font-size: 1.2rem;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu button {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .sub-content {
+    padding: 15px;
+  }
+  .sub-content h2 {
+    font-size: 1.5rem;
+  }
+  .sub-content p {
+    font-size: 1rem;
+  }
+  .content-1, .content-2, .content-3, .content-4 {
+    padding: 15px;
+  }
+}
