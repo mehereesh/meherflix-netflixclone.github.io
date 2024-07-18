@@ -3,11 +3,12 @@
     padding: 20px;
 }
 .navbar{
-    background-color: #fff;
+    background-color: #010101;
     border-bottom: 1px solid #e6e6e6;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    padding: 10px;
 }
 .main {
   opacity: 0.9;
@@ -41,7 +42,7 @@ margin-top: 20px;
   background-color: #e50914;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
@@ -51,7 +52,10 @@ margin-top: 20px;
 .input-group button:hover{
   background-color: #f40612;
   }
-
+  .input-group-append a{
+    text-decoration: none;
+    color: #fff;
+  }
 .main-content {
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -105,13 +109,12 @@ margin-top: 20px;
     text-decoration: none;
     text-align: center;
 }
-.menu button{
+.menu  button{
   background-color: #c60b0b;
   border: none;
   border-radius: 5px;
  width: 100px;
- height: 50px;
-
+ height: 30px;
   font-size: 1rem;
   font-weight: 600;
   color: #cd1e1e;
@@ -122,3 +125,70 @@ margin-top: 20px;
 
   padding-right: 10px;
   }
+
+
+  .sub-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+  }
+
+  .sub-content h2{
+    color: #fbf8f8;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    }
+    .sub-content p{
+      color: #fbf8f8;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 10px;
+      text-align: center;
+      }
+      .content-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+       padding-top: 10rem; 
+      }
+      .content-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 10rem; 
+      }
+.content-3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10rem; 
+}
+
+.content-4{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
